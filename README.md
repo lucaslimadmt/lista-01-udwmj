@@ -1,17 +1,34 @@
-# UDWMJ - Lista 01 (Calculadora de IMC)
+# UDWMJ — Lista 01: Calculadora de IMC
 
-## 📌 Funcionalidade do Projeto
-Página web interativa que calcula o **Índice de Massa Corporal (IMC)** do usuário:
-1. Solicita o nome, peso (kg) e altura (m) através de caixas de diálogo `prompt()`.
-2. Realiza o cálculo do IMC usando a fórmula $\text{IMC} = \frac{\text{peso}}{\text{altura}^2}$.
-3. Exibe a saudação personalizada e o resultado categorizado (Abaixo do peso, Peso normal, Sobrepeso ou Obesidade) diretamente na página HTML.
+Página web desenvolvida como atividade acadêmica para praticar HTML, CSS e JavaScript.
 
-## 🛠️ Tecnologias Utilizadas
-* **HTML5:** Estruturação da página e container de exibição.
-* **CSS3:** Estilização externa para centralização e layout do container.
-* **JavaScript:** Captura de entradas, processamento dos dados e alteração dinâmica do DOM (`textContent`).
+## Funcionalidade
 
-## 📁 Estrutura de Arquivos
-* `index.html` — Estrutura principal da página
-* `IMC.css` — Arquivo de estilos visuais
-* `IMC.js` — Lógica do cálculo e manipulação da página
+A aplicação:
+
+1. solicita nome, peso e altura por meio de `prompt()`;
+2. calcula o IMC;
+3. classifica o resultado;
+4. exibe a mensagem e a classificação na página.
+
+## Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Arquivos
+
+```text
+IMC.html
+IMC.css
+IMC.js
+```
+
+## Como executar
+
+Abra o arquivo `IMC.html` em um navegador.
+
+## Contexto
+
+Exercício acadêmico da disciplina de desenvolvimento web.
